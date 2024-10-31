@@ -12,15 +12,9 @@ const Navbar = ({ darkMode }) => {
     <div className={darkMode ? "navbar navbar-dark" : "navbar"}>
       <div className="logo-container">
         <Link to="/">
-          <img
-            className={darkMode ? "logo dark-logo" : "logo"}
-            src="https://res.cloudinary.com/dkkwppueg/image/upload/v1728355319/alef-logo_cxrxbg.jpg"
-            alt="alef electronics logotipo"
-          />
+
         </Link>
-        <h1 className={darkMode ? "dark-title" : "light-title"}>
-          Alef-Computers
-        </h1>
+
       </div>
       <ul className="categories">
         <Link to="/" className={darkMode ? "li li-dark" : "li"}>
