@@ -1,0 +1,22 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.span {
+  color: #536be0;
+  font-size: larger;
+  font-weight: bold;
+}
+.span-dark {
+  color: #fcebb3;
+}
+.icon {
+  color: #000;
+  margin-bottom: 20px;
+}
+.icon-dark {
+  color: #fcebb3;
+}
